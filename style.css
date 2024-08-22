@@ -347,8 +347,16 @@ body {
     font-size: 60%;
   }
 
-  .content {
-    padding-top: 1.5rem;
+  .content .content-one img {
+    height: 65vh;
+  }
+
+  .content .content-one .text-content {
+    margin-top: 8rem;
+  }
+
+  .content .content-two {
+    padding-top: 2.5rem;
   }
 
   .content .cta-content .cta {
