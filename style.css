@@ -47,7 +47,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  animation: animate 0.5s;
 }
 
 .content .content-one img {
@@ -97,7 +96,6 @@ body {
 /* Content Two */
 .content .content-two {
   display: block;
-  animation: animate 0.5s;
 }
 
 .content .content-two img {
@@ -346,29 +344,50 @@ body {
 /* Hp */
 @media (max-width: 450px) {
   html {
-    font-size: 80%;
+    font-size: 60%;
+  }
+
+  .content {
+    padding-top: 1.5rem;
+  }
+
+  .content .cta-content .cta {
+    color: var(--primary);
+    padding: 1px 2rem;
+  }
+
+  .content .content-one .text-content {
+    padding: 1.4rem 7%;
+    max-width: 120%;
   }
 
   .content .content-two .text-content h3 {
-    font-size: 1rem;
     margin-top: 3rem;
-  }
-
-  .content .content-two .text-content h1 {
-    font-size: 2rem;
   }
 
   .content .content-two .text-content p {
     margin: 2rem 15%;
-    font-size: 0.8rem;
   }
 
   .content .content-two .text-content .cta {
-    font-size: 0.7rem;
     margin: 0 35% 6rem;
   }
 
+  .highlight .highlight-description h1 {
+    text-align: center;
+    padding: 0 2rem 1rem;
+  }
+
   .get {
-    display: none;
+    padding: 3rem 0;
+  }
+
+  .get .box-container {
+    margin: 1rem;
+    padding: 1rem 0;
+  }
+
+  .class {
+    padding-top: 2rem;
   }
 }
